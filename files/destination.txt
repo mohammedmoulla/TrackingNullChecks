@@ -1,0 +1,46 @@
+case '/' : System.out.println(x/y);/*---->deleted*/
+/*added---->*/ case '/' : if (y!=0)
+/*added---->*/ System.out.println(x/y);
+Scanner sc;/*---->deleted*/
+/*added---->*/ Scanner sc =new Scanner(System.in);
+/*added---->*/ if (sc !=null)
+/*remained---->*/
+/*remained---->*/
+/*remained---->*/
+/*remained---->*/class A {
+/*remained---->*/String ss;
+/*remained---->*/A() {
+/*remained---->*/ss="mohammed";
+/*remained---->*/}
+/*remained---->*/
+/*remained---->*/String show (String u) {
+/*remained---->*/u = "aboody";
+/*remained---->*/u="pppppp";
+/*remained---->*/
+/*remained---->*/if(u  ==null)
+/*remained---->*/System.out.print(u);
+/*remained---->*/if (ss != null)
+/*remained---->*/System.out.print(ss);
+/*remained---->*/}
+/*remained---->*/
+/*remained---->*/}
+/*remained---->*/
+/*remained---->*/
+/*remained---->*/
+/*remained---->*/class Student {
+/*remained---->*/
+/*remained---->*/void print(String y,Scanner z) {
+/*remained---->*/y="sara";
+/*remained---->*/if (y!= null)
+/*remained---->*/System.out.println(y);
+/*remained---->*/}
+/*remained---->*/void fun () {
+/*remained---->*/Human h = "zzzz" ;
+/*remained---->*/h="ooo";
+/*remained---->*/h="yyyyyy";
+/*remained---->*/if (h!=null)
+/*remained---->*/System.out.println(h);
+/*remained---->*/
+/*remained---->*/}
+/*remained---->*/
+/*remained---->*/}

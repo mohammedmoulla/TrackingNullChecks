@@ -1,0 +1,68 @@
+package test;
+import java.util.Scanner;
+public class cal {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("insert number1 ");
+        int x = input.nextInt();
+        System.out.print("insert operation ");
+        char c = input.next().charAt(0);
+        System.out.print("insert number2 ");
+        int y = input.nextInt();
+        switch (c) {
+            case '+' : System.out.println(x+y);
+            case '-' : System.out.println(x-y);
+            case '*' : System.out.println(x*y);
+            case '/' : if (y!=0) 
+			System.out.println(x/y);
+        }
+	Scanner sc =new Scanner(System.in);
+	if (sc !=null)
+		int y = sc.nextInt();
+	System.out.println(y);         
+    }
+}
+
+
+
+class A { 
+String ss;
+A() {
+	ss="mohammed";
+}
+
+String show (String u) { 
+u = "aboody";
+u="pppppp";
+
+if(u  ==null)
+	System.out.print(u);
+if (ss != null)
+	System.out.print(ss);
+}
+
+}
+
+
+
+class Student {
+
+void print(String y,Scanner z) {
+	y="sara";
+if (y!= null) 
+	System.out.println(y);
+}
+void fun () {
+	Human h = "zzzz" ;
+	h="ooo";
+	h="yyyyyy";
+	if (h!=null)
+		System.out.println(h);
+
+}
+
+}
+
+
+
+

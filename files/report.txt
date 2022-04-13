@@ -1,0 +1,41 @@
+line = 20 nullcheck = sc!=null
+line = 19 declaration = Scanner sc
+Type of Scanner sc is LOCAL
+*********expressions*********
+line = 19 expression = Scanner sc =new Scanner(System.in);
+Value = new Scanner(System.in)
+______________________________
+line = 52 nullcheck = y!=null
+line = 50 declaration = String y
+Type of String y is PARAMETER
+*********expressions*********
+line = 51 expression = y="sara";
+Value = "sara"
+______________________________
+line = 38 nullcheck = u==null
+line = 34 declaration = String u
+Type of String u is PARAMETER
+*********expressions*********
+line = 35 expression = u = "aboody";
+Value = "aboody"
+line = 36 expression = u="pppppp";
+Value = "pppppp"
+______________________________
+line = 40 nullcheck = ss!=null
+line = 29 declaration = String ss
+Type of String ss is MEMBER
+*********expressions*********
+line = 31 expression = ss="mohammed";
+Value = "mohammed"
+______________________________
+line = 59 nullcheck = h!=null
+line = 56 declaration = Human h
+Type of Human h is LOCAL
+*********expressions*********
+line = 56 expression = Human h = "zzzz" ;
+Value = "zzzz"
+line = 57 expression = h="ooo";
+Value = "ooo"
+line = 58 expression = h="yyyyyy";
+Value = "yyyyyy"
+______________________________

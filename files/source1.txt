@@ -1,0 +1,22 @@
+package test;
+import java.util.Scanner;
+public class cal {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("insert number1 ");
+        int x = input.nextInt();
+        System.out.print("insert operation ");
+        char c = input.next().charAt(0);
+        System.out.print("insert number2 ");
+        int y = input.nextInt();
+        switch (c) {
+            case '+' : System.out.println(x+y);
+            case '-' : System.out.println(x-y);
+            case '*' : System.out.println(x*y);
+            case '/' : System.out.println(x/y);
+        }
+	Scanner sc;
+	int y = sc.nextInt();
+	System.out.println(y);       
+    }
+}
